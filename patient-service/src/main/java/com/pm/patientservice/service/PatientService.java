@@ -19,7 +19,7 @@ import java.util.UUID;
 @Service
 public class PatientService {
     private final KafkaProducer kafkaProducer;
-    private PatientRepository patientRepository;
+    private final PatientRepository patientRepository;
     private final BillingServiceGrpcClient billingServiceGrpcClient;
 
     public PatientService(PatientRepository patientRepository, BillingServiceGrpcClient billingServiceGrpcClient, KafkaProducer kafkaProducer) {
