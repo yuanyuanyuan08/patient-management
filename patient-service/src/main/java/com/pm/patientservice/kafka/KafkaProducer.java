@@ -11,7 +11,7 @@ import patient.events.PatientEvent;
 public class KafkaProducer {
     private static final Logger log = LoggerFactory.getLogger(
             KafkaProducer.class);
-    private final KafkaTemplate kafkaTemplate;
+    private final KafkaTemplate<String, byte[]> kafkaTemplate;
 
     public KafkaProducer(KafkaTemplate<String, byte[]> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
