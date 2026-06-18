@@ -1,13 +1,15 @@
 # 📋 项目概览
 # 【项目名称】Patient Management System | 患者管理系统
-【项目规模】分布式微服务架构，5个独立服务模块
+分布式微服务架构，5个独立服务模块
 分布式微服务管理平台
 
  
 ## 1. 🎯项目描述
 开发了分布式微服务架构的患者管理系统，包含认证、患者、账单、分析等5个核心服务模块，
 采用API网关统一入口，实现了系统的模块化、可扩展的架构设计。
-## 2. 核心功能亮点
+## 2. 核心模块
+<img width="1920" height="1080" alt="Development Architecture" src="https://github.com/user-attachments/assets/65272f73-6313-43dd-8a64-b574866eb3d8" />
+
 功能模块	说明
 Patient Service	患者信息管理（增删改查）、JPA数据持久化、PostgreSQL数据库
 Auth Service	基于JWT的身份认证、Spring Security权限控制、用户角色管理
